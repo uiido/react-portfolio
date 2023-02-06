@@ -2,23 +2,49 @@ import React from 'react';
 
 export default function Portfolio() {
     return (
-        <div>
-            <h1>Portfolio Page</h1>
-            <p>
-                Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-                Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-                dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-                sodalexss volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-                sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-                vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-                libero. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-                lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-                in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-                bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-                est ligula suscipit velit, sed bibendum turpis dui in sapien.
-            </p>
+        <div class="container p-3 mt-3">
+            <h2 class="text-center pb-3">View My Work</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
+                </div>
+            </div>
+
         </div>
     );
 }
