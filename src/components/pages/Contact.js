@@ -2,30 +2,26 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <form>
-            <div class="form-outline mb-4">
-                <input type="text" id="form4Example1" class="form-control" />
-                <label class="form-label" for="form4Example1">Name</label>
-            </div>
-
-            <div class="form-outline mb-4">
-                <input type="email" id="form4Example2" class="form-control" />
-                <label class="form-label" for="form4Example2">Email address</label>
-            </div>
-
-            <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-                <label class="form-label" for="form4Example3">Message</label>
-            </div>
-
-            <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" unchecked />
-                <label class="form-check-label" for="form4Example4">
-                    Send me a copy of this message
-                </label>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-        </form>
+        <div class="container w-50 p-3">
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                </div>
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" />
+                </div>
+                <div class="mb-3">
+                    <label for="messageTitle" class="form-label">Message Title</label>
+                    <input type="text" class="form-control" id="messageTitle" />
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea type="text" class="form-control" rows="5" id="message" placeholder="what is your message?" />
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
     );
 }

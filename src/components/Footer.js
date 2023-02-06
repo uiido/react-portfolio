@@ -2,17 +2,11 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom">
-            <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-3 ms-4 mb-md-0 text-muted">© 2023 Erin Bowen</span>
-            </div>
-
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                {/* <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> */}
-            </ul>
-        </footer>
+        <div id="footer" class="container py-4">
+            <footer class="pt-3 mt-4 text-muted border-top text-center">
+                © 2023 Erin Bowen
+            </footer>
+        </div>
     );
 }
 
