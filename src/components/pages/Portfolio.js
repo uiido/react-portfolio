@@ -23,8 +23,6 @@ export default function Portfolio() {
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">View Code »</a> <a class="btn btn-primary" href="#" role="button">View Site »</a></p>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-4">
                     <img class="rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="400" height="140" />
                     <h2>Heading</h2>
