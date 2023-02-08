@@ -1,5 +1,4 @@
 import React from 'react';
-import ResumePdf from '../../assets/resume.pdf'
 import ResumeImg from '../../assets/resume.png'
 
 export default function Resume() {
@@ -11,11 +10,11 @@ export default function Resume() {
                     <p>One row of skills</p>
                 </div>
                 <div class="col-2 text-center">
-                    <a href="https://saidou25.github.io/Print-or-Film/" target="_"><img src={ResumeImg} className='img-fluid rounded p-2 text-bg-secondary' alt='Resume' /></a>
-                    <a class="btn mt-1 btn-primary" target="_" href="https://github.com/Saidou25/Print-or-Film" role="button">Prefer to download?</a>
+                    <a href={require("../../assets/resume.pdf")} target="_"><img src={ResumeImg} className='img-fluid rounded p-2 text-bg-secondary' alt='Resume' /></a>
+                    <a class="btn mt-1 btn-primary" target="_" href={require("../../assets/resume.pdf")} role="button">Prefer to download?</a>
                 </div>
             </div>
 
-        </div>
+        </div >
     );
 }
