@@ -11,7 +11,7 @@ import SocialNetwork from '../../assets/SocialNetworkAPI.png'
 export default function Portfolio() {
     return (
         <div class="container p-2 mt-3">
-            <h2 class="text-center text-primary fw-bolder pb-3 mb-3">view my work</h2>
+            <h2 class="text-center text-primary fw-bolder pb-3 ms-me-2 mb-3">view my work</h2>
             <Row>
                 <Col xs={12} md={6} lg={4}>
                     <a href="https://enigmatic-tundra-51864.herokuapp.com/" target="_"><img src={UrgentCare} className='img-fluid rounded' alt='Express Urgent Care' /></a>
