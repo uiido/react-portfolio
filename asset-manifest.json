@@ -1,13 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1dd4465d.css",
-    "main.js": "/react-portfolio/static/js/main.a41df6a3.js",
+    "main.js": "/react-portfolio/static/js/main.9e6bb060.js",
+    "static/media/Header1.jpeg": "/react-portfolio/static/media/Header1.1403a9696cf42fa320a2.jpeg",
+    "static/media/PrintOrFilm.png": "/react-portfolio/static/media/PrintOrFilm.be81bb77b84e42aa4382.png",
+    "static/media/SocialNetworkAPI.png": "/react-portfolio/static/media/SocialNetworkAPI.f474b2e9b5d6d503df7d.png",
+    "static/media/EcommerceBackend.png": "/react-portfolio/static/media/EcommerceBackend.e617fff80f37b9c41eff.png",
+    "static/media/profile-photo.jpeg": "/react-portfolio/static/media/profile-photo.6f4616ae0701655fb65e.jpeg",
+    "static/media/TeamProfileGenerator.png": "/react-portfolio/static/media/TeamProfileGenerator.65ceb126f4804a062560.png",
+    "static/media/ExpressUrgentCare.png": "/react-portfolio/static/media/ExpressUrgentCare.f75914482b1e721fec7c.png",
+    "static/media/TechBlog.png": "/react-portfolio/static/media/TechBlog.1178fb2bb2867037fbfa.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.9d759defc7cb75df06dd.pdf",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.6ba3ecec263451c89a8e.png",
+    "static/media/Header2.jpeg": "/react-portfolio/static/media/Header2.97d971000e284e246158.jpeg",
     "index.html": "/react-portfolio/index.html",
     "main.1dd4465d.css.map": "/react-portfolio/static/css/main.1dd4465d.css.map",
-    "main.a41df6a3.js.map": "/react-portfolio/static/js/main.a41df6a3.js.map"
+    "main.9e6bb060.js.map": "/react-portfolio/static/js/main.9e6bb060.js.map"
   },
   "entrypoints": [
     "static/css/main.1dd4465d.css",
-    "static/js/main.a41df6a3.js"
+    "static/js/main.9e6bb060.js"
   ]
 }
