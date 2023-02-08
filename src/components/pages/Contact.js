@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <div class="container w-50 p-3 mt-3">
-            <h2 class="text-center">Want to get in touch?</h2>
+            <h2 class="text-center text-primary fw-bolder">want to get in touch?</h2>
             <form class="mt-4">
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
