@@ -13,7 +13,7 @@ export default function About() {
                     <p><span class="fw-bolder fs-4 text-secondary">Hi, I'm Erin Bowen!</span>
                         <br /><br />
 
-                        I'm an animator, illustrator, full-stack developer based in the American east coast.
+                        I'm an animator, illustrator, and full-stack developer based in the American east coast.
                         <br /><br />
 
                         Macaroon brownie croissant cotton candy cupcake donut. Candy canes powder bonbon danish cotton candy dessert carrot cake biscuit. Tart chocolate cake soufflé pie marshmallow tart candy canes. Liquorice sesame snaps gummi bears pie chocolate cake brownie cake marshmallow.
