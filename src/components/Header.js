@@ -17,8 +17,8 @@ function Header() {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 className="text-white">First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="text-white">Welcome to Erin Bowen's React Portfolio</h3>
+                    <p>"If you aim at nothing, you hit nothing."</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -29,8 +29,8 @@ function Header() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="text-white">Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="text-white">Welcome to Erin Bowen's React Portfolio</h3>
+                    <p>"My courage always rises with every attempt to intimidate me."</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -41,9 +41,8 @@ function Header() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="text-white">Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    <h3 className="text-white">Welcome to Erin Bowen's React Portfolio</h3>
+                    <p>"You can’t be fussy when you’re off to seek your fortune."
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
